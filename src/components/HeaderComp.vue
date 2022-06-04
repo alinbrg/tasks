@@ -30,7 +30,7 @@ export default {
 	},
 	computed: {
 		homePage() {
-			if (this.$route.path === "/") {
+			if (this.$route.path === "/tasks/main") {
 				return true;
 			} else {
 				return false;
